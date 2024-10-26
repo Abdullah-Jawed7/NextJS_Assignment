@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .projectImg0 {
+    width: 100%;
+    overflow: hidden;
+    background-image: url(../assets/ShareBookLogo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .projectImg1 {
+    width: 100%;
+    
+    background-image: url(../assets/DailyTodo.jpg);
+    background-size: cover;
+  
+    background-repeat: no-repeat;
+  }
+  .projectImg2 {
+    width: 100%;
+    background-image: url(../assets/ResumeBuilder.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .projectImg3 {
+    width: 100%;
+    
+    background-image: url(../assets/Portfolio.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }

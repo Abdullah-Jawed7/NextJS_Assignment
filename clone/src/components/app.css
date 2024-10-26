@@ -1,0 +1,28 @@
+
+@media (min-width: 786px) {
+    .center::after {
+      content: "";
+      color: #7b8397;
+      min-height: 100%;
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      left: 50%;
+      border: 1px solid #7b8397;
+    }
+}
+@media (max-width: 786px) {
+    .center::after {
+      content: "";
+      color: #7b8397;
+      min-height: 1px;
+      min-width: 100%;
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      
+      border: 1px solid #7b8397;
+    }
+}
