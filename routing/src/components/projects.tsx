@@ -3,7 +3,7 @@ import Link from "next/link";
 import "./app.css"
 export default function Projects() {
     let id = 0;
-    let Projects = [
+    const Projects = [
       {
         title: "Blog: ShareBook",
         description:
@@ -37,7 +37,7 @@ export default function Projects() {
   <div className="py-20 px-4 md:px-6 bg-white dark:bg-slate-900 transition-colors duration-300">
     <div className="flex flex-wrap lg:flex-nowrap justify-evenly m-2 md:m-3">
         {Projects.map((project)=>(
-    <div className="my-12 lg:my-0 relative w-full sm:w-1/3 lg:w-1/4 border rounded-lg  border-slate-900 m-1 h-2/4">
+    <div key={project.id} className="my-12 lg:my-0 relative w-full sm:w-1/3 lg:w-1/4 border rounded-lg  border-slate-900 m-1 h-2/4">
   <div className={`h-56 projectImg${project.id} overflow-hidden`}></div>
   <div className="absolute -bottom-12 left-1/3 mx-auto">
 <Link href={`/project/${project.id}`}> <button className="text-gray-200 mr-2 text-lg rounded-xl bg-slate-900 p-1">See More</button></Link>
