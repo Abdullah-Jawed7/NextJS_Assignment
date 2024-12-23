@@ -42,7 +42,7 @@ export default function Header() {
                 <li className="text-white text-md font-medium  transition-all duration-500 hover:text-[#b73439]">Video</li>
                 <li className="text-white text-md font-medium  transition-all duration-500 hover:text-[#b73439]">Forum</li>
                 <li className="text-white text-md font-medium  transition-all duration-500 hover:text-[#b73439]">Blog</li>
-                <li className="text-white text-md font-medium  transition-all duration-500 hover:text-[#b73439]">More</li>
+                <li className="text-white text-lg font-medium  transition-all duration-500 hover:text-[#b73439]">Customers</li>
                 <li><button className="w-32 h-10 bg-[#b73439] rounded-md text-white text-md">Post an Ad</button></li>
             </ul>
         </div>
