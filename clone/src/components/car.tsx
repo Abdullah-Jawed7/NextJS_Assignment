@@ -1,6 +1,6 @@
 "use client"
 import { Star} from "lucide-react"
-import { details } from "@/data/details";
+import { details } from "@/lib/details";
 import Image from "next/image";
 import Link from "next/link";
 
