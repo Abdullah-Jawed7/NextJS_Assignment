@@ -1,6 +1,7 @@
 "use client"
 import Image from "next/image"
 import { useState } from "react"
+import Link from "next/link"
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -42,7 +43,10 @@ export default function Header() {
                 <li className="text-white text-md font-medium  transition-all duration-500 hover:text-[#b73439]">Video</li>
                 <li className="text-white text-md font-medium  transition-all duration-500 hover:text-[#b73439]">Forum</li>
                 <li className="text-white text-md font-medium  transition-all duration-500 hover:text-[#b73439]">Blog</li>
+                <Link href={"/customer"}>
+
                 <li className="text-white text-lg font-medium  transition-all duration-500 hover:text-[#b73439]">Customers</li>
+                </Link>
                 <li><button className="w-32 h-10 bg-[#b73439] rounded-md text-white text-md">Post an Ad</button></li>
             </ul>
         </div>
